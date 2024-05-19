@@ -54,6 +54,7 @@
   --primary-700:#83bae759;
   --primary-500-hsl:#657b9448;
   --background-floating:#8fb7eb52;
+ --status-danger
 }
 
 .appAsidePanelWrapper__5e6e2{
@@ -161,4 +162,10 @@ foreignObject > div{
 }
 .contents__322f4{
     color: white;
+}
+.tabBar__73938 .badge_d35eba{
+ color:white;
+}
+.emptyStateContainer__7a1d7{
+ backdrop-filter: blur(6px);
 }
