@@ -1,0 +1,164 @@
+:root{
+--home-button-image: url('https://i.pinimg.com/564x/05/78/01/0578014576b782b4e50450a2ea562180.jpg');
+ --header-primary: #a2d7fa;
+  --header-secondary: #bbb;
+  --text-normal: #fff;
+  --text-default: #ddd;
+  --text-muted: #aaa;
+  --text-link: #466977;
+  --channels-default: #ddd;
+  --interactive-normal: #bbb;
+  --interactive-hover: #eee;
+  --interactive-active: #fff;
+  --interactive-muted: #777;
+  --background-primary:rgba(0, 0, 0, 0.151);
+  --background-secondary: rgba(26, 33, 51, 0.116);
+  --background-secondary-alt: rgba(26, 33, 51, 0.116);
+  --background-tertiary: rgba(26, 33, 51, 0.116);
+  --background-accent: rgba(26, 33, 51, 0.116);
+  --background-floating: white;
+  --background-mobile-primary: #495c86;
+  --background-mobile-secondary: #293144;
+  --background-modifier-hover: rgba(122, 91, 206, 0.05);
+  --background-modifier-active: rgba(115, 94, 172, 0.07);
+  --background-modifier-selected: rgba(2, 2, 2, 0.1);
+  --background-modifier-accent: rgb(255, 255, 255, 0.1);
+  --background-mentioned: rgba(121, 92, 224, 0.308);
+  --background-mentioned-hover: rgba(227, 172, 248, 0.075);
+  --background-message-hover: rgba(48, 68, 97, 0.404);
+  --elevation-stroke: 0 0 0 1px rgb(4, 4, 5, 0.15);
+  --elevation-low: 0 1px 0 rgb(4, 4, 5, 0.2), 0 1.5px 0 rgb(6, 6, 7, 0.05), 0 2px 0 rgb(4, 4, 5, 0.05);
+  --elevation-medium: 0 4px 4px rgba(124, 73, 73, 0.16);
+  --elevation-high: 0 8px 16px rgb(0, 0, 0, 0.24);
+  --logo-primary: #a780da;
+  --guild-header-text-shadow: 0 1px 1px rgb(0, 0, 0, 0.4);
+  --channeltextarea-background: rgb(13, 14, 31);
+  --activity-card-background: #3c495c;
+  --textbox-markdown-syntax: #8e9297;
+  --deprecated-card-bg: rgba(92, 36, 36, 0.3);
+  --deprecated-card-editable-bg: rgb(0, 0, 0, 0.3);
+  --deprecated-store-bg: #36393f;
+  --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
+  --deprecated-quickswitcher-input-placeholder: rgb(255, 255, 255, 0.5);
+  --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+  --deprecated-text-input-border: rgba(126, 68, 68, 0.3);
+  --deprecated-text-input-border-hover: #393975;
+  --deprecated-text-input-border-disabled: #5d6b80;
+  --deprecated-text-input-prefix: #316191;
+  --primary-660:#63799200;
+  --profile-gradient-overlay-color:#fff;
+  --primary-800:#657b9448;
+  --primary-500:#657b9448;
+  --primary-330:#657b9448;
+  --white-500-hsl:#657b9448;
+  --primary-700:#83bae759;
+  --primary-500-hsl:#657b9448;
+  --background-floating:#8fb7eb52;
+}
+
+.appAsidePanelWrapper__5e6e2{
+    background-image: url(https://forum.neverlose.cc/uploads/default/original/3X/5/7/5726e67c18ed022ff5a2bdb34a5378c8441e9e6e.jpeg);
+}
+.appAsidePanelWrapper__5e6e2{
+    padding: 10px 10px 10px 10px;
+}
+
+.guildsWrapper-5TJh6A .guildSeparator-3s7eDq + div {
+    background-image: url("https://avatars.githubusercontent.com/u/64214782?s=200&v=4");
+    background-size: cover;
+    background-position: center;
+}
+#app-mount .guilds__2b93a .tutorialContainer_b06ae6 .listItem__48528:first-child .wrapper__8436d::before {
+  content: "";
+  border-radius: 30%;
+  position: absolute;
+  background: var(--home-button-image, url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg"));
+  background-size: var(--home-button-size, cover);
+  background-position: var(--home-button-position, center);
+  background-repeat: var(--home-button-repeat, no-repeat);
+  height: 100%;
+  width: 100%;
+}
+.container_d1f8f5, .app_de4237, .bg__12180{
+    border-radius: 15px;
+}
+.platform-win .bg__12180 {
+    top: 0px;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.typeWindows_e41dab {
+    background:linear-gradient(270deg, #000000, #252e47, #334d81, #235e79);
+     background-size: 800% 800%;
+    animation: gradient-animation 5s ease infinite;
+}
+.chatContent_f087cb, .privateChannels__9b518, .scroller_de945b none_ff9f86, .scrollerBase__65223{
+    backdrop-filter: blur(6px);
+    border-radius: 5px;
+}
+.overlayBackground__345c9{
+    background-color: #0c132546;
+    transition: 0.5s ease;
+    display: flex;
+    padding: 20px 20px 50px 20px;
+    height: 950px;
+}
+.overlayBackground__345c9:hover{
+    background-color: #2d427046;
+    margin-left: 7px;
+    margin-right: 7px;
+    transition: 0.5s ease;
+    padding: 20px 20px 50px 20px;
+    height: 950px;
+}
+.theme-dark ::-webkit-scrollbar, .theme-light ::-webkit-scrollbar {
+    width: 7px; 
+}
+
+.theme-dark ::-webkit-scrollbar-thumb, .theme-light ::-webkit-scrollbar-thumb {
+    background: #7289DA; 
+    border-radius: 10px; 
+    border: 2px solid #efa2f1; 
+}
+
+.theme-dark ::-webkit-scrollbar-thumb:hover, .theme-light ::-webkit-scrollbar-thumb:hover {
+    background: #5A6CB2; 
+}
+.badgelistGroup__8f7c7{
+    background: #c1b7e600;
+}
+.badgeList__76720 ,.containerWithContent_a67357, .container_ed2af4{
+    background-color: #979fec65;
+}
+foreignObject > div{
+    background-color: rgb(222, 164, 245);
+}
+.profilePanel_e2cafe{
+    background-color: rgba(4, 11, 44, 0.342);
+}
+.theme-dark .themed_b152d4{
+    background-color: rgba(108, 159, 236, 0.11);
+}
+.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2 {
+    background-color: rgba(130, 193, 252, 0.384);
+}
+.pageWrapper__18871 {
+    background-color: #00000028;
+}
+.theme-dark .themed_b152d4 {
+    background-color: #00000042;
+}
+.contents__322f4{
+    color: white;
+}
