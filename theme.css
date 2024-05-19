@@ -113,7 +113,7 @@
     transition: 0.5s ease;
     display: flex;
     padding: 20px 20px 50px 20px;
-    height: 950px;
+    height: 650px;
 }
 .overlayBackground__345c9:hover{
     background-color: #2d427046;
@@ -121,7 +121,7 @@
     margin-right: 7px;
     transition: 0.5s ease;
     padding: 20px 20px 50px 20px;
-    height: 950px;
+    height: 650px;
 }
 .theme-dark ::-webkit-scrollbar, .theme-light ::-webkit-scrollbar {
     width: 7px; 
