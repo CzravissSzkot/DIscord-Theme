@@ -1,7 +1,7 @@
 :root{
 --home-button-image: url('https://i.pinimg.com/564x/05/78/01/0578014576b782b4e50450a2ea562180.jpg');
- --header-primary: #a2d7fa;
-  --header-secondary: #bbb;
+ --header-primary: #accee6;
+  --header-secondary: #fffbfb;
   --text-normal: #fff;
   --text-default: #ddd;
   --text-muted: #aaa;
@@ -54,6 +54,7 @@
   --primary-700:#83bae759;
   --primary-500-hsl:#657b9448;
   --background-floating:#8fb7eb52;
+  --white-500:#fff7f7;
 }
 
 .appAsidePanelWrapper__5e6e2{
@@ -114,6 +115,7 @@
     display: flex;
     padding: 20px 20px 50px 20px;
     height: 650px;
+    backdrop-filter: blur(6px);
 }
 .overlayBackground__345c9:hover{
     background-color: #2d427046;
@@ -141,9 +143,6 @@
 }
 .badgeList__76720 ,.containerWithContent_a67357, .container_ed2af4{
     background-color: #979fec65;
-}
-foreignObject > div{
-    background-color: rgb(222, 164, 245);
 }
 .profilePanel_e2cafe{
     background-color: rgba(4, 11, 44, 0.342);
@@ -187,3 +186,25 @@ foreignObject > div{
 .avatarStack__789b4{
     background-color: rgba(255, 255, 255, 0);
 }
+.grid__35551{
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.avatar__08316 {
+    height: 43px;
+    width: 43px;
+}
+.wrapper__6bf2d.minimum__7f356 .callContainer__1477d {
+    background-color: rgba(104, 46, 91, 0.288);
+}
+.contents__322f4, giftButton__890d6 {
+    color: black;
+}
+.lottieIcon_c7076c, .contents__322f4, .buttonWrapper_bd4bd7{
+    color: white;
+}
+.contentWrapper_e0bb2c{
+    background-color: rgba(205, 204, 255, 0.349);
+}
+.
