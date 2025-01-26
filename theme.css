@@ -56,6 +56,13 @@
   --background-floating:#8fb7eb52;
   --white-500:#fff7f7;
 }
+.body_ad5fac{
+    background-color: rgba(17, 10, 29, 0.548);
+    backdrop-filter: blur(2px);
+}
+.contents_dd4f85 > div{
+    color: white;
+}
 .sidebarRegion_c25c6d{
     background-color: rgba(123, 83, 160, 0.418);
 }
@@ -243,13 +250,13 @@
     height: 650px;
 }
 .theme-dark ::-webkit-scrollbar, .theme-light ::-webkit-scrollbar {
-    width: 7px; 
+    width: 3px; 
+    margin-right: 3px;
 }
 
 .theme-dark ::-webkit-scrollbar-thumb, .theme-light ::-webkit-scrollbar-thumb {
-    background: #7289DA; 
-    border-radius: 10px; 
-    border: 2px solid #efa2f1; 
+    background: #ffffff; 
+    margin-right: 3px;
 }
 
 .theme-dark ::-webkit-scrollbar-thumb:hover, .theme-light ::-webkit-scrollbar-thumb:hover {
