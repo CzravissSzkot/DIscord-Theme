@@ -11,11 +11,11 @@
   --interactive-hover: #eee;
   --interactive-active: #fff;
   --interactive-muted: #777;
-  --background-primary:rgba(0, 0, 0, 0.151);
-  --background-secondary: rgba(26, 33, 51, 0.116);
-  --background-secondary-alt: rgba(26, 33, 51, 0.116);
+  --background-primary:rgba(75, 61, 92, 0.082);
+  --background-secondary: rgba(75, 42, 97, 0.116);
+  --background-secondary-alt: rgba(0, 0, 0, 0.116);
   --background-tertiary: rgba(26, 33, 51, 0.116);
-  --background-accent: rgba(26, 33, 51, 0.116);
+  --background-accent: rgba(63, 35, 68, 0.034);
   --background-floating: white;
   --background-mobile-primary: #495c86;
   --background-mobile-secondary: #293144;
@@ -32,7 +32,7 @@
   --elevation-high: 0 8px 16px rgb(0, 0, 0, 0.24);
   --logo-primary: #a780da;
   --guild-header-text-shadow: 0 1px 1px rgb(0, 0, 0, 0.4);
-  --channeltextarea-background: rgb(13, 14, 31);
+  --channeltextarea-background: rgba(255, 255, 255, 0);
   --activity-card-background: #3c495c;
   --textbox-markdown-syntax: #8e9297;
   --deprecated-card-bg: rgba(92, 36, 36, 0.3);
@@ -56,7 +56,78 @@
   --background-floating:#8fb7eb52;
   --white-500:#fff7f7;
 }
+.sidebarRegion_c25c6d{
+    background-color: rgba(123, 83, 160, 0.418);
+}
+.container_c2739c > .themed_fc4f04{
+    background-color: rgba(123, 83, 160, 0.418);
+    
+}
+.sidebar_c25c6d{
+    border-left: 1px solid rgb(218, 137, 243);
+    background-color: rgba(59, 35, 58, 0.418);
+}
+.contentColumn_c25c6d{
+    maring-right: 450px;
+    width: 800px;
+    border-right: 1px solid rgb(218, 137, 243);
+    background-color: rgba(59, 35, 58, 0.418);
+}
+.contentRegion_c25c6d{
+    background-color: rgba(123, 83, 160, 0.418);
+}
+.channelBottomBarArea_a7d72e{
+    width: 102%;
+}
+.toolsContainer_c25c6d{
+    margin-left: -50px;
+}
+.buttons_bdf0de{
+    background-color: #232a41;
+    border: 2px solid rgb(210, 173, 218);
+    border-radius: 10px;
+    margin-left: 5px;
+    height: inherit;
+    transition: 0.1s ease-in;
+    overflow: hidden;
+    width: 20.2%;
+}
+.buttons_bdf0de:hover{
+    background-color: rgb(141, 116, 146);
+    transition: 0.1s ease-in;
+}
+.button_df39bd{
+    display: none;
+}
+.form_a7d72e{
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.247);
+    border-radius: 15px 15px 0px 0px;
+    padding-top: 10px;
+    border-bottom: 5px solid;
+    margin-left: 10px;
+    border-image: linear-gradient(90deg, #ff6a00, #ee0979, #1e90ff, #00ff6a) 1;
+    margin-right: 10px;
+    animation: borderAnimation 5s linear infinite;
+}
 
+@keyframes borderAnimation {
+      0% {
+        border-image-source: linear-gradient(0deg, #ff6a00, #ee0979, #1e90ff, #00ff6a);
+      }
+      10% {
+        border-image-source: linear-gradient(120deg, #ff6a00, #ee0979, #1e90ff, #00ff6a);
+      }
+      30%{
+        border-image-source: linear-gradient(200deg, #ff6a00, #ee0979, #1e90ff, #00ff6a);
+      }
+      50%{
+        border-image-source: linear-gradient(120deg, #ff6a00, #ee0979, #1e90ff, #00ff6a);
+      }
+      100%{
+        border-image-source: linear-gradient(0deg, #ff6a00, #ee0979, #1e90ff, #00ff6a);
+      }
+}
 .appAsidePanelWrapper__5e6e2{
     background-image: url(https://forum.neverlose.cc/uploads/default/original/2X/1/1e41d9a36cde3b626535fa904e70667c819b69be.jpeg);
     background-position: center;
@@ -64,7 +135,51 @@
 .appAsidePanelWrapper__5e6e2{
     padding: 10px 10px 10px 10px;
 }
+.textArea_bdf0de{
+    background-color: #1e2538;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 75%;
+    transition: 0.2s ease-in;
+}
+.textArea_bdf0de:hover{
+    background-color: #1e2538b7;
+    border: 2px solid rgb(250, 209, 247);
+    border-radius: 10px;
+    transition: 0.1s ease-in;
+    z-index: 2000;
+}
+.markup_f8f345{
+    padding-left: 10px;
+    margin-top: -2px;
+}
+.menu_ec5137{
+    background-color: rgb(49, 56, 70);
+    border: 1px solid white;
+}
+.sidebar_a4d4d9,  .container_fc4f04{
+    border: 2px solid rgb(170, 142, 235);
+}
+.inner_c69a7b, .panel_c69a7b {
+    border: 1px solid rgb(140, 141, 224);
+}
 
+.optionName_ec5137{
+    color: rgb(255, 255, 255);
+}
+.placeholder_a552a6{
+    margin-top: -1px;
+    text-align: center;
+}
+.kappa{
+    background-color: #000000;
+    border-radius: 10px;
+}
+.channelTextArea_bdf0de{
+    background: rgba(0, 0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
 .guildsWrapper-5TJh6A .guildSeparator-3s7eDq + div {
     background-image: url("https://avatars.githubusercontent.com/u/64214782?s=200&v=4");
     background-size: cover;
@@ -99,11 +214,13 @@
         background-position: 0% 50%;
     }
 }
-
 .typeWindows_e41dab {
     background:linear-gradient(270deg, #000000, #252e47, #1d2b49, #112e3b);
      background-size: 800% 800%;
     animation: gradient-animation 5s ease infinite;
+}
+.buttons_bdf0de :nth-child(4){
+    display:none;
 }
 .chatContent_f087cb, .privateChannels__9b518{
     backdrop-filter: blur(6px);
@@ -164,6 +281,27 @@
 }
 .tabBar__73938 .badge_d35eba{
  color:white;
+}
+
+.attachButton_bdf0de{
+    border: 2px solid rgb(182, 174, 253);
+    z-index: 1000;
+    margin-right: 5px ;
+    border-radius: 7px;
+    transition: 0.1s ease-in;
+    background-color: #202947;
+}
+.attachButton_bdf0de:hover{
+    border: 2px solid rgb(177, 177, 177);
+    transition: 0.1s ease-in;
+    z-index: 1000;
+    margin-right: 5px ;
+    border-radius: 7px;
+    background-color: #988ca7;
+}
+.sansAttachButton_bdf0de{
+    border-left: 1px solid black;
+    border-radius: 6px;
 }
 .emptyStateContainer__7a1d7{
  backdrop-filter: blur(6px);
