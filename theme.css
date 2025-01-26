@@ -209,7 +209,9 @@
 .platform-win .bg__12180 {
     top: 0px;
 }
-
+.base_d7ebeb{
+    margin-bottom: 65px;
+}
 @keyframes gradient-animation {
     0% {
         background-position: 0% 50%;
