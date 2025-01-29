@@ -93,7 +93,11 @@
     border: 1px solid rgb(230, 145, 218);
     border-radius: 10px;
 }
+.container_c59af2{
+    background-color: white;
+}
 /*app mounts and body*/
+
 .appMount_ea7e65{
     border-top: 2px solid;
     border-image: linear-gradient(90deg, #ff6a00, #ee0979, #1e90ff, #00ff6a) 1;
@@ -104,6 +108,7 @@
     backdrop-filter: blur(2px);
 }
 /*polls*/
+
 .prompt_a1531c{
     border-bottom: 1px solid white;
 }
@@ -112,14 +117,17 @@
     border: 2px solid rgb(237, 201, 238);
 }
 /*text*/
+
 .contents_dd4f85 > div{
     color: white;
 }
 /*sidebar*/
+
 .sidebarRegion_c25c6d{
     background-color: rgba(123, 83, 160, 0.418);
 }
 /*buttons */
+
 .buttons_bdf0de{
     background-color: #232a41;
     border: 2px solid rgb(210, 173, 218);
@@ -135,6 +143,9 @@
     background-color: rgb(141, 116, 146);
     transition: 0.1s ease-in;
     max-height: 45px;
+}
+.inner_c59af2{
+    background-color: white;
 }
 .button_df39bd{
     display: none;
@@ -155,6 +166,7 @@
     margin-right: 10px;
     animation: borderAnimation 5s linear infinite;
 }
+
 /*chat*/
 .container_c2739c > .themed_fc4f04{
     background-color: rgba(123, 83, 160, 0.418);
@@ -178,6 +190,84 @@
 .toolsContainer_c25c6d{
     margin-left: -50px;
 }
+.channelTextArea_bdf0de{
+    background: rgba(0, 0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+.childWrapper_f90abb > svg{
+    display: none;
+}
+.textArea_bdf0de{
+    background-color: #1e2538;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 65%;
+    transition: 0.2s ease-in;
+}
+.textArea_bdf0de:hover{
+    background-color: #1e2538b7;
+    border: 2px solid rgb(250, 209, 247);
+    border-radius: 10px;
+    transition: 0.1s ease-in;
+}
+.markup_f8f345{
+    padding-left: 10px;
+    margin-top: -2px;
+}
+.menu_ec5137{
+    background-color: rgba(47, 15, 56, 0.308);
+    border: 2px solid;
+    border-image: linear-gradient(90deg, #ff6a00, #ee0979, #1e90ff, #00ff6a) 1;
+    animation: borderAnimation 5s linear infinite;
+    backdrop-filter: blur(5px);
+}
+.placeholder_a552a6{
+    margin-top: -1px;
+    text-align: center;
+}
+.sansAttachButton_bdf0de{
+    padding: 0px;
+}
+.attachButton_bdf0de{
+    border: 2px solid rgb(182, 174, 253);
+    margin-left: 1px;
+    margin-right: 5px ;
+    border-radius: 7px;
+    transition: 0.1s ease-in;
+    background-color: #202947;
+}
+.attachButton_bdf0de:hover{
+    max-height: 50px;
+    border: 2px solid rgb(177, 177, 177);
+    transition: 0.1s ease-in;
+    margin-right: 5px ;
+    border-radius: 7px;
+    background-color: #988ca7;
+}
+.emptyStateContainer__7a1d7{
+ backdrop-filter: blur(6px);
+}
+.message_ccca67 {
+    margin: 10px 10px;
+    background-color: #b6abf513;
+    border-radius: 15px;
+}
+.message_ccca67 > span{
+    padding: 10px;
+}
+.cozy_f5c119.wrapper_a62503 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.colorDefault_e361cf{
+    color: rgb(218, 198, 245);
+}
+
+.buttons_bdf0de :nth-child(4){
+    display:none;
+}
+
 /*theme dark & scrollbar*/
 .theme-dark ::-webkit-scrollbar, .theme-light ::-webkit-scrollbar {
     width: 3px; 
@@ -214,7 +304,7 @@
     background-color: #00000042;
 }
 
-
+/*Elysia sshenanigans*/
 .childWrapper_f90abb{
     background-image: url(https://static.wikitide.net/hoyodexwiki/2/2b/Elysia.png);
     background-size: contain;
@@ -228,37 +318,7 @@ body{
     background-color: rgb(124, 121, 121);
 }
 */
-//text
-.childWrapper_f90abb > svg{
-    display: none;
-}
-.appAsidePanelWrapper__5e6e2{
-    padding: 10px 10px 10px 10px;
-}
-.textArea_bdf0de{
-    background-color: #1e2538;
-    border: 2px solid white;
-    border-radius: 10px;
-    width: 65%;
-    transition: 0.2s ease-in;
-}
-.textArea_bdf0de:hover{
-    background-color: #1e2538b7;
-    border: 2px solid rgb(250, 209, 247);
-    border-radius: 10px;
-    transition: 0.1s ease-in;
-}
-.markup_f8f345{
-    padding-left: 10px;
-    margin-top: -2px;
-}
-.menu_ec5137{
-    background-color: rgba(47, 15, 56, 0.308);
-    border: 2px solid;
-    border-image: linear-gradient(90deg, #ff6a00, #ee0979, #1e90ff, #00ff6a) 1;
-    animation: borderAnimation 5s linear infinite;
-    backdrop-filter: blur(5px);
-}
+/*sidebar*/
 .item_d90b3d{
     background-color: #211629;
     border-radius: 5px ;
@@ -281,24 +341,6 @@ body{
 .optionName_ec5137{
     color: rgb(255, 255, 255);
 }
-.placeholder_a552a6{
-    margin-top: -1px;
-    text-align: center;
-}
-.kappa{
-    background-color: #000000;
-    border-radius: 10px;
-}
-.channelTextArea_bdf0de{
-    background: rgba(0, 0, 0, 0);
-    margin: 0px;
-    padding: 0px;
-}
-.guildsWrapper-5TJh6A .guildSeparator-3s7eDq + div {
-    background-image: url("https://avatars.githubusercontent.com/u/64214782?s=200&v=4");
-    background-size: cover;
-    background-position: center;
-}
 
 .container_d1f8f5, .app_de4237, .bg__12180{
     border-radius: 15px;
@@ -310,14 +352,7 @@ body{
     margin-bottom: 65px;
     
 }
-.typeWindows_e41dab {
-    background:linear-gradient(270deg, #000000, #252e47, #1d2b49, #112e3b);
-     background-size: 800% 800%;
-    animation: gradient-animation 5s ease infinite;
-}
-.buttons_bdf0de :nth-child(4){
-    display:none;
-}
+
 .chatContent_f087cb, .privateChannels__9b518{
     backdrop-filter: blur(6px);
     border-radius: 5px;
@@ -346,67 +381,6 @@ body{
  color:white;
 }
 
-.attachButton_bdf0de{
-    border: 2px solid rgb(182, 174, 253);
-    margin-left: 1px;
-    margin-right: 5px ;
-    border-radius: 7px;
-    transition: 0.1s ease-in;
-    background-color: #202947;
-}
-.attachButton_bdf0de:hover{
-    max-height: 50px;
-    border: 2px solid rgb(177, 177, 177);
-    transition: 0.1s ease-in;
-    margin-right: 5px ;
-    border-radius: 7px;
-    background-color: #988ca7;
-}
-.sansAttachButton_bdf0de{
-    padding: 0px;
-}
-.emptyStateContainer__7a1d7{
- backdrop-filter: blur(6px);
-}
-.message_ccca67 {
-    margin: 10px 10px;
-    background-color: #b6abf513;
-    border-radius: 15px;
-}
-.message_ccca67 > span{
-    padding: 10px;
-}
-.cozy_f5c119.wrapper_a62503 {
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-.colorDefault_e361cf{
-    color: rgb(218, 198, 245);
-}
-.avatarStack__789b4{
-    background-color: rgba(255, 255, 255, 0);
-}
-.grid__35551{
-    background-color: rgba(255, 255, 255, 0.116);
-    border-radius: 10px;
-    border: 1px solid black;
-}
-.avatar__08316 {
-    height: 43px;
-    width: 43px;
-}
-.wrapper__6bf2d.minimum__7f356 .callContainer__1477d {
-    background-color: rgba(104, 46, 91, 0.288);
-}
-.contents__322f4, giftButton__890d6 {
-    color: black;
-}
-.lottieIcon_c7076c, .contents__322f4, .buttonWrapper_bd4bd7{
-    color: white;
-}
-.contentWrapper_e0bb2c{
-    background-color: rgba(205, 204, 255, 0.349);
-}
 
 /*animations*/
 @keyframes borderAnimation {
